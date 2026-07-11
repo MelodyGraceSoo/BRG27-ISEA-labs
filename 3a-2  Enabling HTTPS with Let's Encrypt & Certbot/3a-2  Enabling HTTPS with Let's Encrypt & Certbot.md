@@ -95,19 +95,3 @@ systemctl list-timers | grep certbot
 
 ---
 
-## Deliverables Summary
-
-| # | Deliverable | Status |
-|---|---|---|
-| 1 | Domain points to server (A record + HTTP access) | ✅ |
-| 2 | Certbot installed via Snap | ✅ |
-| 3 | Certificate confirmed (existing cert reinstalled) | ✅ |
-| 4 | HTTPS enabled on Apache | ✅ |
-| 5 | Browser lock icon | ✅ |
-| 6 | Certificate issuer verified as Let's Encrypt | ✅ |
-| 7 | Auto-renewal dry run successful | ✅ |
-| 8 | *(Optional)* Auto-renewal scheduled (systemd timers) | ✅ |
-| 9 | *(Optional)* HTTP → HTTPS redirect confirmed | ✅ |
-| 10 | *(Bonus)* Expired certificate reflection | See Reflective Journal |
-
-*Reflection on the significance of HTTPS, certificate validity/renewal, and expired-certificate behaviour is documented in the Reflective Journal (Section 10), not repeated here.*
